@@ -1,0 +1,14 @@
+#+TITLE: ginit
+#+AUTHOR: laluxx
+
+* Install
+Clone it
+#+begin_src shell
+git clone https://github.com/laluxx/ginit ~/.config/emacs/lisp/ginit
+#+end_src
+
+Add to init.el
+#+begin_src elisp
+(use-package ginit
+  :load-path "~/.config/emacs/lisp/ginit")
+#+end_src
